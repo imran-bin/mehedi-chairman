@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Phone, Mail, MapPin, Facebook, Twitter, Youtube, ExternalLink } from 'lucide-react';
+import { X, Phone, Mail, MapPin, ExternalLink } from 'lucide-react';
 
 const ContactModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -110,9 +110,9 @@ const ContactModal = ({ isOpen, onClose }) => {
               <div style={{ fontSize: '0.85rem', color: '#94a3b8', marginBottom: '15px' }}>সামাজিক যোগাযোগ মাধ্যম</div>
               <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
                 {[
-                  { name: 'Facebook', color: '#1877f2', icon: <Facebook /> },
-                  { name: 'Twitter', color: '#1da1f2', icon: <Twitter /> },
-                  { name: 'Youtube', color: '#ff0000', icon: <Youtube /> }
+                  { name: 'Facebook', color: '#1877f2', icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg> },
+                  { name: 'Twitter', color: '#1da1f2', icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg> },
+                  { name: 'Youtube', color: '#ff0000', icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> }
                 ].map((s, i) => (
                   <a key={i} href="#" style={{ 
                     width: '45px', height: '45px', background: `${s.color}10`, color: s.color,
