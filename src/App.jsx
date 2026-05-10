@@ -7,6 +7,8 @@ import SocialWork from './components/SocialWork';
 import VideoGallery from './components/VideoGallery';
 import ImageGallery from './components/ImageGallery';
 import Vision from './components/Vision';
+import ProblemForm from './components/ProblemForm';
+import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 
@@ -35,6 +37,8 @@ const App = () => {
         <SocialWork />
         <VideoGallery />
         <ImageGallery />
+        <ProblemForm />
+        <FAQSection />
       </main>
       <Footer />
       
