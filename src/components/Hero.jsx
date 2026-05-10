@@ -80,7 +80,7 @@ const Hero = ({ openModal }) => {
             className="image-container"
             style={{ border: '8px solid #fff', borderRadius: '30px', boxShadow: 'var(--shadow-lg)' }}
           >
-            <img src="/assets/candidate.png" alt="Mehedi Hasan Sagar" />
+            <img src="/assets/images/hero-image.jpeg" alt="Mehedi Hasan Sagar" />
             
             {/* Floating Badges */}
             <div className="floating-badge badge-top-right" style={{ border: '2px solid var(--primary-light)' }}>

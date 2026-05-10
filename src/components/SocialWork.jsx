@@ -27,7 +27,7 @@ const SocialWork = () => {
       title: "ক্রীড়া সামগ্রী বিতরণ",
       desc: "এলাকার ক্লাব ও শিক্ষা প্রতিষ্ঠানে ফুটবল, ক্রিকেট ও জার্সি বিতরণ।",
       icon: <Trophy />,
-      img: "https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=600&auto=format&fit=crop"
+      img: "/assets/images/ক্রীড়া সামগ্রী বিতরণ.jpeg"
     },
     {
       title: "সুচিকিৎসা নিশ্চিতকরণ",
